@@ -1,0 +1,260 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 1.3rem;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input {
+  border: 2px solid black;
+  width: 70%;
+  height: 100%;
+}
+.itemContainer {
+  position: relative;
+}
+.rank {
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  line-height: normal;
+}
+
+input[type='email'] {
+  font-size: 0.7em;
+}
+
+input[type] {
+  font-size: 0.7em;
+}
+
+input[type='search'] {
+  font-size: 0.7em;
+}
+
+a {
+  text-decoration: none;
+}
+.errorMessage {
+  font-size: 0.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f69d3c;
+  /* background: white; */
+}
+.particles {
+  /* border:2px solid blue; */
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+.DropDownMenu {
+  /* border: 2px solid #3f87a6; */
+  padding: 0;
+  float: right;
+  position: relative;
+  margin-right: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navs a {
+  padding: 0;
+  float: right;
+  position: relative;
+  margin-right: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.DropDownMenu .a {
+  font-size: 0.7em;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* border:2px solid blue; */
+}
+
+.show ul {
+  /* border:2px solid black;  */
+  /* display: inline; */
+  /* visibility: hidden; */
+  top: 3em;
+  opacity: 1;
+  transition: opacity 1s;
+}
+.hide ul {
+  opacity: 0;
+}
+
+.DropDownMenu ul {
+  background: #3f87a6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 3.5em;
+  right: 0;
+  padding: 0 0.7em;
+  margin: 0 1em;
+  list-style: none;
+  width: 10em;
+  font-size: 0.7em;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  transition: opacity 1s;
+  /* visibility: hidden; */
+}
+
+.DropDownMenu ul li {
+  margin: 0.5em 0;
+  padding: 0.3em 0.5em;
+}
+
+.DropDownMenu ul li:hover {
+  /* border:1px solid #f69d3c; */
+  cursor: pointer;
+  background: #f69d3c;
+}
+
+.instruct {
+  /* border:2px solid blue; */
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  line-height: normal;
+}
+.linkbox {
+  /* border:2px solid blue;  */
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  padding: 1em 1em;
+  position: relative;
+  margin: 0 auto;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+input {
+  /* border:2px solid blue;  */
+  width: 80%;
+  border: none;
+  /* height: 100%; */
+  /* margin: 0 2em; */
+  /* padding: 0 10em; */
+  /* position: absolute;
+  top:0;
+  left: 0; */
+}
+
+button {
+  /* border:2px solid blue;  */
+  padding: 5px;
+  height: 40px;
+  align-self: center;
+  border: none;
+}
+
+.Tilt {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+img {
+  width: 100%;
+  font-size: 10px;
+}
+
+nav {
+  text-align: right;
+}
+nav > ul {
+  /* border:2px solid blue; */
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1em;
+  margin: 1em 0;
+  text-align: right;
+}
+nav ul li {
+  margin-left: 10px;
+}
+.links {
+  color: #000000;
+  text-align: right;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.text-center {
+  /* border:2px solid blue; */
+}
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+.loader {
+  /* border:2px solid blue; */
+}
+.loading {
+  /* border:2px solid blue; */
+  display: block;
+  margin: 0 auto;
+  /* visibility: hidden; */
+}
+.hide {
+  visibility: hidden;
+  display: none;
+}
+.show {
+  visibility: visible;
+  display: block;
+}
+
+.menu {
+  border: 2px solid blue;
+}
+.menu li {
+  display: block;
+  width: 100%;
+  border: 2px solid blue;
+}
+
+#inputimage {
+  max-width: 900px;
+  height: auto;
+  /* border:2px solid blue; */
+}
+.icon {
+  border: none !important;
+  font-size: 0.6em;
+}
+.menu-ul {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+.a {
+  text-decoration: none;
+}
+.button-center {
+  /* border: 2px solid blue; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 780px) {
+  .instruct,
+  .rank {
+    font-size: 1.5rem;
+  }
+}
+/* Error Page */
+
+.errorpage img{
+width: 100%;
+height: 100vh;
+object-fit: fill;
+}
